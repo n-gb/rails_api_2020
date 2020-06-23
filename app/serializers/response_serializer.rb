@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class ResponseSerializer
   include FastJsonapi::ObjectSerializer
   attributes :username, :confidence, :lecture, :rescue_from, :api
