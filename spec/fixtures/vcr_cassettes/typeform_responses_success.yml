@@ -1,0 +1,49 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.typeform.com/forms/GGRWcvff/responses
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+      Authorization:
+      - bearer <BEARER_TOKEN>
+      Expect:
+      - ''
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Date:
+      - Tue, 23 Jun 2020 19:47:48 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '958'
+      Server:
+      - istio-envoy
+      Typeform-Version:
+      - '2016-05-25'
+      X-Envoy-Upstream-Service-Time:
+      - '17'
+      Access-Control-Allow-Methods:
+      - GET, OPTIONS, POST, PUT, PATCH, DELETE
+      Access-Control-Allow-Headers:
+      - X-Typeform-Key, Content-Type, Authorization, Typeform-Version
+      Access-Control-Expose-Headers:
+      - Location, X-Request-Id
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubDomains
+      X-Newp:
+      - 'Yes'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJ0b3RhbF9pdGVtcyI6MSwicGFnZV9jb3VudCI6MSwiaXRlbXMiOlt7ImxhbmRpbmdfaWQiOiJnbmk2bnA2NG0xZzZqeWNzM2U4ZmduaTZuY2Jsd3loOSIsInRva2VuIjoiZ25pNm5wNjRtMWc2anljczNlOGZnbmk2bmNibHd5aDkiLCJyZXNwb25zZV9pZCI6ImduaTZucDY0bTFnNmp5Y3MzZThmZ25pNm5jYmx3eWg5IiwibGFuZGVkX2F0IjoiMjAyMC0wNi0yM1QxOTo0NDowOVoiLCJzdWJtaXR0ZWRfYXQiOiIyMDIwLTA2LTIzVDE5OjQ0OjU0WiIsIm1ldGFkYXRhIjp7InVzZXJfYWdlbnQiOiJNb3ppbGxhLzUuMCAoTWFjaW50b3NoOyBJbnRlbCBNYWMgT1MgWCAxMF8xNV81KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvODMuMC40MTAzLjEwNiBTYWZhcmkvNTM3LjM2IiwicGxhdGZvcm0iOiJvdGhlciIsInJlZmVyZXIiOiJodHRwczovL25hZGlhZ3ViZXJuYXRvci50eXBlZm9ybS5jb20vdG8vR0dSV2N2ZmYiLCJuZXR3b3JrX2lkIjoiZjMxYTBhMWMyYSIsImJyb3dzZXIiOiJkZWZhdWx0In0sImhpZGRlbiI6e30sImNhbGN1bGF0ZWQiOnsic2NvcmUiOjB9LCJhbnN3ZXJzIjpbeyJmaWVsZCI6eyJpZCI6IklZRmI1SFQ4NmRnTyIsInJlZiI6IjM3MTUxNWRjLWEzNzctNDc2YS1iMjY5LTVlNzc0ZmEzNjkyYSIsInR5cGUiOiJsb25nX3RleHQifSwidHlwZSI6InRleHQiLCJ0ZXh0Ijoi0JTRg9C20LUg0YHQv9C+0LTRltCy0LDRjtGB0Y8g0YnQviDQstGB0ZbQvCDQsdGD0LvQviDQstC10YHQtdC70L4g0LLRh9C40YLQuCDQv9GA0L4gUmFpbHMgQVBJIC0g0LHQviDRgtC10LzQsCDQutC70LDRgdC90LAifSx7ImZpZWxkIjp7ImlkIjoiNDdrUFhWWUFyUEhqIiwicmVmIjoiZjVkYTMyMDUtZjY0MC00ZjQwLTg4ZWQtNjZmODQwYzU1OGNkIiwidHlwZSI6InNob3J0X3RleHQifSwidHlwZSI6InRleHQiLCJ0ZXh0IjoiQG4uZ3ViZXJuYXRvciJ9XX1dfQ==
+    http_version: 
+  recorded_at: Tue, 23 Jun 2020 19:47:48 GMT
+recorded_with: VCR 4.0.0

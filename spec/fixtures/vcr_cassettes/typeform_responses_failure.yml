@@ -1,0 +1,47 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.typeform.com/forms/GGRWcvff/responses
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+      Authorization:
+      - 'bearer '
+      Expect:
+      - ''
+  response:
+    status:
+      code: 401
+      message: ''
+    headers:
+      Date:
+      - Tue, 23 Jun 2020 19:48:20 GMT
+      Content-Type:
+      - text/plain; charset=utf-8
+      Content-Length:
+      - '108'
+      Server:
+      - istio-envoy
+      X-Envoy-Upstream-Service-Time:
+      - '1'
+      Access-Control-Allow-Methods:
+      - GET, OPTIONS, POST, PUT, PATCH, DELETE
+      Access-Control-Allow-Headers:
+      - X-Typeform-Key, Content-Type, Authorization, Typeform-Version
+      Access-Control-Expose-Headers:
+      - Location, X-Request-Id
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubDomains
+      X-Newp:
+      - 'Yes'
+    body:
+      encoding: UTF-8
+      string: '{"code":"AUTHENTICATION_FAILED","description":"Authentication credentials
+        not found on the Request Headers"}'
+    http_version:
+  recorded_at: Tue, 23 Jun 2020 19:48:20 GMT
+recorded_with: VCR 4.0.0
